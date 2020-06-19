@@ -9,6 +9,6 @@ public class Dog extends Animal {
 
     protected String sounds()
     {
-        return "Barks";
+        return "Dog barks";
     }
 }
