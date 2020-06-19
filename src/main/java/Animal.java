@@ -1,5 +1,4 @@
 public class Animal {
-
     private String name;
 
 
@@ -14,14 +13,16 @@ public class Animal {
     }
 
     protected String sounds()
-   {
-    return sounds();
-   }
+    {
 
-   protected String eat()
-   {
-       return "Food";
-   }
+        return "Barks \n Meows";
+
+    }
+
+    protected String eat()
+    {
+        return name+ "eats";
+    }
 
 }
 
