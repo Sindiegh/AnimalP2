@@ -12,26 +12,26 @@ public class AnimalTest {
     @Test
     void TestDogSound() {
         Dog dog =new Dog();
-        Assert.assertEquals("Barks",dog.sounds());
+        Assert.assertEquals("Dog barks",dog.sounds());
     }
 
     @Test
     void TestDogEats() {
         Dog dog = new Dog();
-        Assert.assertEquals("Food",dog.eat());
+        Assert.assertEquals("Rax eats",dog.eat());
     }
 
     @Test
     void TestCatSound() {
     Cat cat =new Cat();
-        Assert.assertEquals("Meow",cat.sounds());
+        Assert.assertEquals("Cat meows",cat.sounds());
 
     }
 
     @Test
     void TestCatEats() {
          Cat cat = new Cat();
-         Assert.assertEquals("Food",cat.eat());
+         Assert.assertEquals("Stormy eats",cat.eat());
 
     }
 }
