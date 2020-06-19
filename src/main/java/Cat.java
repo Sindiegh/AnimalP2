@@ -9,7 +9,7 @@ public class Cat extends Animal {
     }
     protected String sounds()
     {
-        return "Meow";
+        return "Cat meows";
     }
 
 
