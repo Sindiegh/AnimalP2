@@ -1,15 +1,17 @@
 public class main {
     public static void main(String [] args )
-    {
-        Dog dog = new Dog();
+    { Dog dog = new Dog();
+        System.out.println(dog.eat());
 
-        dog.eat() ;   // -> 'Food'
-        dog.sounds() ;// -> 'Barks'
+        System.out.println(dog.sounds());
+
+        System.out.println();
 
         Cat cat = new Cat();
 
-        cat.eat() ;   // -> 'Food'
-        cat.sounds(); // -> 'Meow'
+
+        System.out.println(cat.eat());
+        System.out.println(cat.sounds());
     }
 
 
